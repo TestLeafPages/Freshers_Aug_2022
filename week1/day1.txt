@@ -1,0 +1,93 @@
+Java
+  Object oriented programming Launage
+
+1.High level programming launage
+2.high security-irctc
+3.Java is a Open Source
+4.Platform Independent
+
+Why java:
+1.Java used for all cross platform application
+2.used to develope mobile app
+3.web
+4.server
+5.Dynamic web Application
+
+
+JDK-- Java Developement Kit
+JVM-- Java Virtual Machine
+JRE-- Java Runtime Environment
+
+Class
+Syntrax for class:
+public class FirstProgram{
+
+     -----block of code---
+       }
+
+
+Compiler:
+Compiler  is a translator, userlevel launage converted into machine level launage
+and machine level launage into userlevel launage..
+
+
+public static void main(String[] args) {
+		System.out.println("First program");
+	}
+here,
+public --AccessModifier
+static--keyword
+void ---return type, does't return anything.
+main ---method name
+(String  args[])--command line aruguments
+
+DataTypes:
+They are two data types in java
+1.Premitive Datatypes
+2.Non-Premitive datatypes
+Premitive Datatypes:
+1.int
+2.float
+3.long
+4.double
+5.short
+6.byte
+7.boolean
+8.char
+
+Non-Premitive DataTypes
+1.String
+2.Arrays
+3.Interface
+
+Syntax for Variable Declaration:
+datatype  variableName=- value;
+char startingLetter='C';
+
+Object:
+*An Object is RealTime entity.
+*An instance odf class is callled object.
+
+Syntax for Object Creation:
+
+ClassName objectName= newkeyword ConstructorName(or) ClassName();
+BiCycle cycle=new BiCycle();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
