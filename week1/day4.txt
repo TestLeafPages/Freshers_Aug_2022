@@ -1,0 +1,58 @@
+
+syntax for class:
+
+public class ClassName{
+
+
+}
+
+syntax for main method:
+public static void main(String[] args) {
+
+}
+
+Datatypes:
+1.Premitive datatype
+2.Non-Premitive data type
+
+syntax for variable declaration:
+
+Datatype variableName =value;
+
+While creating a class we should follow some naming convention:
+Class--- PascalNotation
+ Starting first letter uppercase such as PrimeNumber
+method and variable--- camel case
+  addTwoNumbers
+
+
+Syntax for method Declaration:
+
+public void add()|{
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

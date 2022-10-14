@@ -1,0 +1,157 @@
+1.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day1/assignments/CheckIfTheNumberIsPositiveOrNegative.java
+2.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day1/assignments/FibonacciSeries.java
+3.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day1/assignments/PrimeNumber.java
+
+
+first  second   sum
+0       1        1
+first  second   sum
+1       1        2
+first  second   sum
+1       2        3
+first  second   sum
+2       3        5
+first  second   sum
+3       5        8
+
+
+Arrays:
+Array is collections of similardatatypes
+
+properties:
+1.fix the Array size
+2.We can not increse the Array size at run time
+3.Array starting from 0
+
+int a=10;
+int b=1;
+int c=4;
+int d=6;
+
+int[] number={1,2,3,4,5,6};
+starting index 0--->5
+
+number[0]=1;
+number[1]=2;
+number[2]=3;
+number[3]=4;
+number[4]=5;
+number[5]=6;
+
+
+Array types:
+1.Single Dimensional
+2.MultiDimensional (or)Two Dimensional
+
+how to Declare an Array?
+
+int[] number={1,2,3,4,5,6};
+
+using new keyword:
+String[] name=new String[5];
+
+
+int[] numbers={12,15,16,11,14};
+
+int[] number={10,50,40,20,30};
+output --50,40,30,20,10
+
+PrintDuplicate:
+int[] num={1,2,3,4,5,1,2,3};
+
+for(int i=0;i<num.length;i++){
+for(int j=i+1;j<num.length;j++){
+
+
+String:
+
+String text="TestLeaf";
+
+using new keyword:
+String name=new String("TestLeaf);
+
+1
+=> Fibonacci Series
+=> Print even number between 1 to 15
+2
+=> Swaping between two numbers(with or without temporary variable)
+=> Factorial
+3
+=> Primenumber
+=> convert a given number into negative
+
+
+
+
+https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day2/assignments/mandatory/FindIntersection.java
+https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day2/classroom/arrays/FindSecondLargest.java
+https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day2/classroom/arrays/MissingElementInAnArray.java
+https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day2/classroom/arrays/PrintDuplicatesInArray.java
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
