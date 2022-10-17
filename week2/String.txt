@@ -1,0 +1,92 @@
+String:
+1.String is Non-Premitiva datatype,String is a Class
+2.String is an Immutable object which means it is constant and can not be changed once it has been created
+3.String is 64bit memory
+
+String Litteral:
+String text="TestLeaf";
+
+String using New Keyword:
+String name=new String("TestLeaf");
+
+String----> Implements CharSequence,Serilizable,Comparatable
+String import from Java.util.String
+
+
+JDK--Java Developement Kit
+JRE--Java Runtime Environment
+JVM--java Virtual Machine
+
+
+
+
+
+
+public class CharacterOccurance{
+
+public static void main(String[] args){
+String str = "welcome to chennai";
+//output =3;
+//Convert the String into CharArray
+char[] charArray=str.toCharArray();
+//Initialize the count variable
+int count=0;
+
+//get the length of the CharArray
+int len=charArray.length;
+
+//iterate the loop from 0 to charArray length
+for(int i=0;i<len;i++){
+//if condition the condition is matched to increse the count
+if(charArray[i]=='e'){
+count++;
+}
+}
+System.out.println(count);
+}
+}
+
+
+
+
+
+
+1
+what is string
+how will you compare two string, write example.
+what is toCharArray()?
+Program:
+-> Reverse a given string
+input:"Testleaf"
+->input: "Testleaf is educational 
+Institute in chennai" print 
+count the number of words in given String
+2
+why string is immutable?
+different way of declaring a string
+default value of String.
+Program:
+->In a given string "Testleaf" 
+how will you print only "leaf"
+->check whether given string is Palindrome or not
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
