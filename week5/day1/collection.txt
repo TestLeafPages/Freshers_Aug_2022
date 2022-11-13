@@ -1,0 +1,95 @@
+Collection:
+a collection of individual object
+Collection --Interface
+Collections-- class
+Premitive Data types:     wrrapperClass
+
+int                      Integer
+float                    Float
+long                     Long
+double                   Double
+short                    Short
+char                     Character
+boolean                  Boolean
+byte                     Byte
+
+
+List Proprtties:
+1.Allow Duplicate
+2.Maintain  the insertion order
+
+List--Interface
+Implementation Class:
+1.ArrayList
+2.LinkedList
+
+Declare list:
+List<> objectName=new ArrayList<>();
+here,
+List-- interface
+<>--generic
+
+Single DimentionalArray
+List 
+set   
+Two Dimentional Array
+map
+List Method:
+isEmpty()--Confirm if the list is empty
+add() -- To add the item in list
+size()--count of theitem in the list
+get()--to return particular index value
+contains()--if the element is exists in the  list
+remove()-- to remove the particular element in the list
+clear()--to clear the list
+
+
+Set:
+
+Property:
+1.Does not allow Duplicate
+2.May or may not be maintain the insertion order
+
+Implementation Class:
+1.TreeSet       --Ascii order
+2.HashSet       ---Hashing Algorithm--Random Order
+3.LinkedHashSet --Insertion order
+
+
+
+
+
+1.RemoveDuplicate
+String name="testleaf";
+//output -- a, e, f, l, s, t
+
+2.String[] fruits={ "Strawberry","Mango", "Orange","Apple"};
+
+print Ascending order
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
