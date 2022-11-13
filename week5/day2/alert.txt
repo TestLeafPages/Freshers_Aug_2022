@@ -1,0 +1,154 @@
+Selenium can automate only web Based application
+
+selenium component:
+Selenium IDE
+Selenium WebDriver
+Selenium Grid
+
+:Locators:
+id
+name
+className
+linkText
+partialLinkText
+tagName
+cssSelector
+Xpath
+
+
+Absolute Xpath:
+Starting from root node
+and start with /
+
+
+Relative Xpath
+Starting from current node
+start with //
+
+//tagName[@Attribute='AttributeValue']
+
+//tagName[text()='textValue']
+
+BrowserInteractions:
+
+driver.get()
+driver.navigate().to()
+driver.maximize()
+driver.timeouts()
+driver.getTitle()
+driver.getCurrentUrl()
+driver.close()
+driver.quit()
+
+
+
+
+Element Interactions:
+sendKeys()
+clear()
+getText()
+getAttribute()
+click()
+
+Target Locator:
+Target Locator-->Interface
+RemoteTargetLocator--->Class
+Alert
+Frame
+WindowHandling
+
+
+Alert--->Interface
+RemoteAlert-->Class
+
+Alert is a small message box which display on screen notifications or ask some kind of permission to access the user
+
+Alert Methods:
+//To accept the alert in webpage
+driver.switchTo().alert().accept();
+//To dismiss the alert in webpage
+driver.switchTo().alert().dismiss();
+//To capture the text in alert
+driver.switchTo().alert().getText();
+//to pass the value in alert box
+driver.switchTo().alert().sendKeys();
+Alert---> build by javascript
+
+Types of Alert:
+1.Model Dialogue:
+  1.we can not able to inspcts an Alert, bacause Alert is build by javascript
+  2.Until handle the Alert, we can not able to access the WebPage
+   1.Simple Alert
+   2.ConfirmationAlert
+   3.Prompt Alert
+
+2.Non-Model Dialogue
+   Sweet Alert
+  we can able to inspect in dom
+
+
+
+Exception:
+1.NoAlertPresdentException
+2.UnHandledAlertException
+
+
+Frame:
+
+<html>
+<head>
+  <body>
+      <div>
+    </div>
+        </body>
+<html>
+<head>
+  <body>
+      <div>
+    </div>
+        </body>
+</body>
+</head>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
