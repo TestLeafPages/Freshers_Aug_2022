@@ -1,0 +1,92 @@
+
+Locators:
+1.id
+2.name
+3.className
+4.linkText
+5.partialLinkText
+6.tagName
+7.cssSelector
+8.xPath
+
+Xpath:
+Attribute based xpath:
+//tagName[@attributeName='AttributeValue']
+
+Text based xpath:
+//tagName[text()='TextValue']
+
+Collection based xpath:
+(//tagName[text()='TextValue'])[1]
+
+Contains Xpath:
+using text:
+//tagName[contains(text(),'partialText')]
+using attribute:
+//tagName[contains(@Attribute,'partialAttributeValue')]
+
+
+AxesXpath/ Relationships Xpath
+
+Parent to Child Xpath:
+
+parent xpath/child tagName or xpath
+//p[@class='top']/input
+
+Child Xpath to parent Xpath:
+child xpath/parent::tagName of Parent tag
+
+//input[@class='inputLogin']/parent::p
+//input[@class='inputLogin']/..
+
+GrandParent to GrandChild:
+GrandParentXpath//grandChildTagName or grandChildXpath
+//form[@id='login']//input[@id='username']
+
+
+ GrandChild to  GrandParent;
+ GrandChildXpath//ancestor::tagName of grandParent
+//input[@id='username']//ancestor::form
+//input[@id='username']/../..
+
+ElderSibling Xpath to YoungerSiblingXpath:
+
+eldersibling xpath/following-sibling::tagName of youngersibling
+//label[text()='Username']/following-sibling::input
+
+ YoungerSiblingXpath to ElderSibling Xpath:
+youngersibling xpath/preceding-sibling::tagName of eldersibling
+//input[@id='password']/preceding-sibling::label
+
+Elder Cousin to Younger Cousin:
+Eldercousin Xpath/following::tagname of youngerCousin
+(//label[text()='Username']/following::input)[3]
+
+ YoungerCousin Xpath to ElderCousin Xpath:
+youngerCousin xpath/preceding::tagName of elderCousin
+
+//input[@id='password']/preceding::label
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
